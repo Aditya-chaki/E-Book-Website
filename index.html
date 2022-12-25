@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-book</title>
+  
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+  integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+
+<body>
+
+
+  <!--------------------------------------- NAVIGATION BAR ---------------------------------------->
+  <nav>
+    <ul>
+      <img class="mainlogo" src="./images/weltbuchen_page-0001.jpg">
+      <li>Home</li>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">Categories</button>
+          <div class="dropdown-content">
+            <a href="#">Romantic</a>
+            <a href="#">Thriller</a>
+            <a href="#">Comedy</a>
+            <a href="#">Manga</a>
+            <a href="#">Academics</a>
+
+          </div>
+        </div>
+      </li>
+      <li>Contact</li>
+      <li>About</li>
+      
+        <form class="search_div">
+          <input class="search" type="search"  aria-label="Search">
+          <button class="search-button" type="submit"><img class="search-logo" src="./images/icons8-search-24.png"></button>
+        </form>
+        <li><button class = "login" >login</button></li>
+    </ul>
+  </nav>
+
+
+  <!---------------------------------------QUOTE WITH IMAGE ------------------------------------>
+
+
+  <div class="img">
+
+    <p class="quote">“I do believe<br> something very<br> magical can happen<br> when you read <br>a BOOK.”<br> – J.K.
+      Rowling</p>
+  </div>
+
+  <hr>
+  <!---------------------------------------- LOGIN PAGE ----------------------------------------->
+  
+
+  <!----------------------------------- BESTSELLERS SLIDER ----------------------------------->
+
+  <!-- <button class="pre-btn"><img src="icons8-chevron-right-50 (1).png" alt="arrow"></button>
+  <button class="nxt-btn"><img src="icons8-chevron-right-50 (1).png" alt="arrow"></button> -->
+
+
+
+
+  <div class="book-slider">
+    <h1 id="best">BESTSELLERS</h1>
+
+
+    <div class="book-container">
+      <div class="book-card">
+
+        <!---------------------------------- FLAWED------------------------ -->
+
+        <div class="book-image">
+          <img src="images/flawed.webp" class="book-thumb" alt="flawed-image">
+          <button class="card-btn">READ</button>
+          <button class="card-btn">PURCHASE</button>
+
+          <div id="flawed">
+            <h2>Flawed</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Inventore, vero.</p>
+          </div>
+        </div>
+
+        <!----------------------------------------- IT ENDS WITH US --------------------------->
+
+        <div class="book-image">
+          <img src="images/it-ends-with-us-9781501110368_hr.webp" class="book-thumb" alt="end-image">
+          <button class="card-btn">READ</button>
+          <button class="card-btn">PURCHASE</button>
+
+          <div id="it-ends-with-us">
+            <h2>It Ends With Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatem!</p>
+          </div>
+        </div>
+
+        <!------------------------------------- LITTLE WOMEN ------------------------------>
+
+        <div class="book-image">
+          <img src="images/littlewomen.webp" class="book-thumb" alt="littlewomen-image">
+          <button class="card-btn">READ</button>
+          <button class="card-btn">PURCHASE</button>
+
+          <div id="little-women">
+            <h2>Little Women</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, asperiores.</p>
+
+          </div>
+        </div>
+
+
+
+
+        <!------------------------------------------MAYBE SOMEDAY ----------------------->
+        <div class="book-image">
+          <img src="images/MAYBE-SOMEDAY-BL-658x1024.webp" class="book-thumb" alt="maybesomeday-image">
+          <button class="card-btn">READ</button>
+          <button class="card-btn">PURCHASE</button>
+
+          <div id="maybe-someday">
+            <h2>Maybe Someday</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, asperiores.</p>
+          </div>
+        </div>
+
+
+
+
+
+        <!--------------------------------------- THE GREAT gatsby ------------------------->
+        <div class="book-image">
+          <img src="images/the-great-gatsby-9781982146702_hr.jpg" class="book-thumb" alt="the great gatsby-image">
+          <button class="card-btn">READ</button>
+          <button class="card-btn">PURCHASE</button>
+
+          <div id="the-great-gatsby">
+            <h2>The Great Gatsby</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, asperiores.</p>
+          </div>
+
+        </div>
+
+
+        <!------------------------------------- TO KILL A MOCKING BIRD -------------------------->
+        <div class="book-image">
+          <img src="images/To_Kill_a_Mockingbird_first_edition_cover.webp" class="book-thumb"
+            alt="to kill a mocking bird-image">
+          <button class="card-btn">READ</button>
+          <button class="card-btn">PURCHASE</button>
+
+
+          <div id="to-kill-a-mocking-bird">
+            <h2>To Kill a Mocking Bird</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, asperiores.</p>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+  <hr>
+
+
+
+  <!----------------------------------------- RECOMMENDED BOOKS --------------------------------->
+
+
+
+
+
+
+  <h1 id="recommended-heading">RECOMMENDED BOOKS</h1>
+  <!-- <button class="pre-btn"><img src="icons8-chevron-right-50 (1).png" alt="arrow"></button>
+  <button class="nxt-btn"><img src="icons8-chevron-right-50 (1).png" alt="arrow"></button> -->
+
+  <div class="book-container">
+    <div class="book-card">
+
+      <!--------------------------------- ANNE FRANK -------------------------------------->
+      <div class="book-image">
+        <img src="recommended/anne-frank.webp" class="book-thumb" alt="anne-image">
+        <button class="card-btn">READ</button>
+        <button class="card-btn">PURCHASE</button>
+
+        <div id="anne">
+          <h2>The Diary of a Young Girl</h2>
+          <p>Lorem ipsum dolor sit amet conctetur adipicing elit.Invento, vero.</p>
+        </div>
+      </div>
+
+
+      <!------------------------------------ THE EXORCIST ----------------------------->
+
+      <div class="book-image">
+        <img src="recommended/exorcist.webp" class="book-thumb" alt="exorcist-image">
+        <button class="card-btn">READ</button>
+        <button class="card-btn">PURCHASE</button>
+
+        <div id="exorcist">
+          <h2>The Exorcist</h2>
+          <p>Lorem ipsum dolor sit amet consectur adipcing elit. Invetore,vero.</p>
+        </div>
+      </div>
+
+
+
+      <!-- ---------------------------RICH DAD POOR DAD ----------------------------------->
+
+
+      <div class="book-image">
+        <img src="recommended/richdad.webp" class="book-thumb" alt="richdad-image">
+        <button class="card-btn">READ</button>
+        <button class="card-btn">PURCHASE</button>
+
+        <div id="richdad">
+          <h2>Rich Dad Poor Dad</h2>
+          <p>Lorem ipsum dolor sit amet consetur adiping elit. Inveore, vero.</p>
+        </div>
+      </div>
+
+
+      <!-- ------------------------------ROMEO JULIET ------------------------------>
+
+
+
+      <div class="book-image">
+        <img src="recommended/romeo-juliet.webp" class="book-thumb" alt="romeo-image">
+        <button class="card-btn">READ</button>
+        <button class="card-btn">PURCHASE</button>
+
+        <div id="romeo">
+          <h2>Romeo and Juliet</h2>
+          <p>Lorem ipsum dolor sit amet contetur adiping elit.Invenre, vero.</p>
+        </div>
+      </div>
+
+
+
+      <!------------------------------- SHERLOCK HOLMES ------------------------------->
+
+
+
+      <div class="book-image">
+        <img src="recommended/sherlock.webp" class="book-thumb" alt="sherlock-image">
+        <button class="card-btn">READ</button>
+        <button class="card-btn">PURCHASE</button>
+
+        <div id="sherlock">
+          <h2>The Adventures of Sherlock Holmes</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, vero.</p>
+        </div>
+      </div>
+
+
+      <!-- -------------------------THE MONK WHO SOLD HIS FERRARI -------------------------->
+
+
+      <div class="book-image">
+        <img src="recommended/the-monk-who-sold-his-ferrari.webp" class="book-thumb" alt="monk-image">
+        <button class="card-btn">READ</button>
+        <button class="card-btn">PURCHASE</button>
+
+        <div id="monk">
+          <h2>The Monk Who Sold His Ferrari</h2>
+          <p>Lorem ipsum dolor sit amet consecte adipiing elit. Inveore, vero.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!------------------------------------ BEST COLLECTIONS  ----------------------------------->
+  <h1 id="best-collection">BEST COLLECTION EVER</h1>
+  <div class="harry">
+
+    <img id="harry-img" src="./images/entertainment-books-2014-07-harrypotter-00.webp" alt="harry potter">
+    <div class="content">
+      <h2 class="harry-head"> Fantasy World of Harry Potter </h2>
+      <p id="harry-para">One of the best collection of books ever exist</p>
+      <button class="card-btn">Explore</button>
+    </div>
+
+  </div>
+
+  <hr>
+
+ <footer>
+  <div class="bottom-container">
+   
+  
+    
+    <a class="footer-link"  href="https://www.linkedin.com/in/aditya-chaki-b1908a230" target="_blank"><i id ="link" class ="fab fa-linkedin"></i></a>
+    <a class="footer-link" id ="git" href="https://github.com/Aditya-chaki" target="_blank"><i class ="fab fa-github"></i></a>
+    <a class="footer-link" id ="twt" href="https://twitter.com/" target="_blank"><i class ="fab fa-twitter"></i></a>
+    <p class="copyright">© 2022 WeltBuchen.</p>
+</div>
+
+
+ </footer>
+
+
+</body>
+
+</html>
